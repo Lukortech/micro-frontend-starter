@@ -36,11 +36,13 @@ export const routes: RouteConfig[] = [
     routes: [
       {
         path: '/app-a',
-        component: AppA
+        //@ts-ignore
+        component: AppA,
       },
       {
         path: '/app-b',
-        component: AppB
+        //@ts-ignore
+        component: AppB,
       },
       {
         path: '/',

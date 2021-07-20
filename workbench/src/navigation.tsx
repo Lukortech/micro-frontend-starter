@@ -36,7 +36,11 @@ const NavBarLink = styled(NavLink)`
 const Navigation = () => (
   <NavBar>
     <InlineList>
-      <InlineListItem>Micro Frontend Workbench:</InlineListItem>
+      <InlineListItem>
+          <NavBarLink to="/">
+            Micro Frontend Workbench:
+          </NavBarLink>
+        </InlineListItem>
       <InlineListItem>
         <NavBarLink to="/app-a">App A</NavBarLink>
       </InlineListItem>

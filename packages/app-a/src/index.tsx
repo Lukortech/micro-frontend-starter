@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Link, Router } from 'react-router-dom';
 import { renderRoutes } from 'react-router-config';
 import { prefixRoutes, createChildHistory } from 'child-history';
-import ComponentA from 'component-a';
+import { ComponentA } from '../../shared';
 import { History } from 'history';
 
 const ViewA = () => (
